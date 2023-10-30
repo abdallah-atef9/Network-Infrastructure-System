@@ -1,0 +1,59 @@
+Jun 26 09:04:55.465 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 26 09:04:55.465 HYPERVISOR: Started on IP = localhost, TCP port = 64822.
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: hypervisor working_dir D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips 
+Jun 26 09:04:55.960 GENERAL: working_dir=D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: hypervisor working_dir D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips\626de944-5a7e-419a-9a02-cc093206ffdd 
+Jun 26 09:04:55.960 GENERAL: working_dir=D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips\626de944-5a7e-419a-9a02-cc093206ffdd
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: vm create Router-4 4 c7200 
+Jun 26 09:04:55.960 VM: VM Router-4 created.
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: vm set_con_tcp_port Router-4 5037 
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: c7200 get_mac_addr Router-4 
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 0 0 C7200-IO-FE 
+Jun 26 09:04:55.960 HYPERVISOR: exec_cmd: vm set_disk0 Router-4 0 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm set_exec_area Router-4 64 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm set_idle_pc Router-4 0x62a8122c 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm set_ios Router-4 D:/ABDULLAH/CCNA/CCNA/CISCO IOS/c7200-adv-15.image 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: c7200 set_mac_addr Router-4 ca04.1798.0000 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm set_nvram Router-4 512 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm set_ram Router-4 512 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_remove_binding Router-4 0 0 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 0 0 C7200-IO-2FE 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 1 0 PA-2FE-TX 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 2 0 PA-2FE-TX 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 3 0 PA-4T+ 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 4 0 PA-GE 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:04:55.964 HYPERVISOR: exec_cmd: vm slot_add_binding Router-4 5 0 PA-4E 
+Jun 26 09:05:11.680 HYPERVISOR: exec_cmd: nio create_udp udp-68ed7532-a0cd-4acd-ab58-3fe5868bb00a 10010 127.0.0.1 10011 
+Jun 26 09:05:11.900 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router-4 0 0 udp-68ed7532-a0cd-4acd-ab58-3fe5868bb00a 
+Jun 26 09:05:11.900 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:05:11.978 HYPERVISOR: exec_cmd: nio create_udp udp-00e4b20f-9ec1-4616-ba83-9cfd677f112c 10016 127.0.0.1 10017 
+Jun 26 09:05:11.982 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router-4 0 1 udp-00e4b20f-9ec1-4616-ba83-9cfd677f112c 
+Jun 26 09:05:11.982 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:05:12.706 HYPERVISOR: exec_cmd: nio create_udp udp-e836426a-cf69-475f-8ed4-32e7c01644bd 10028 127.0.0.1 10029 
+Jun 26 09:05:12.710 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router-4 1 0 udp-e836426a-cf69-475f-8ed4-32e7c01644bd 
+Jun 26 09:05:12.710 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:05:13.532 HYPERVISOR: exec_cmd: nio create_udp udp-e6881b83-cd05-4710-a897-c35ee3e066ba 10040 127.0.0.1 10041 
+Jun 26 09:05:13.536 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router-4 1 1 udp-e6881b83-cd05-4710-a897-c35ee3e066ba 
+Jun 26 09:05:13.536 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 09:05:13.603 HYPERVISOR: exec_cmd: nio create_udp udp-7de0eaf8-6f04-4747-aeef-23d7816e428d 10044 127.0.0.1 10045 
+Jun 26 09:05:13.607 HYPERVISOR: exec_cmd: vm slot_add_nio_binding Router-4 2 0 udp-7de0eaf8-6f04-4747-aeef-23d7816e428d 
+Jun 26 09:05:13.607 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 18:53:17.970 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 18:53:17.999 HYPERVISOR: exec_cmd: vm extract_config Router-4 
+Jun 26 18:53:18.870 HYPERVISOR: exec_cmd: vm get_status Router-4 
+Jun 26 18:53:18.870 HYPERVISOR: exec_cmd: vm extract_config Router-4 
+Jun 26 18:53:18.874 HYPERVISOR: exec_cmd: vm delete Router-4 
+Jun 26 18:53:18.874 VM: VM Router-4 destroyed.
+Jun 26 18:53:18.878 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 26 18:53:18.935 HYPERVISOR: Stopped.
+Jun 26 18:53:18.935 GENERAL: reset done.

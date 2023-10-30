@@ -1,0 +1,21 @@
+Jun 26 09:04:59.802 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 26 09:04:59.802 HYPERVISOR: Started on IP = localhost, TCP port = 64846.
+Jun 26 09:05:00.297 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 26 09:05:00.297 HYPERVISOR: exec_cmd: hypervisor working_dir D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips 
+Jun 26 09:05:00.297 GENERAL: working_dir=D:\ABDULLAH\BFE\Graduation_Project\Design\GNS3\projects\graduation_project\project-files\dynamips
+Jun 26 09:05:00.297 HYPERVISOR: exec_cmd: ethsw create Switch13 
+Jun 26 09:05:13.399 HYPERVISOR: exec_cmd: nio create_udp udp-7f264fb2-c03a-4561-9ed1-791c145b863e 10035 127.0.0.1 10034 
+Jun 26 09:05:13.399 HYPERVISOR: exec_cmd: ethsw add_nio Switch13 udp-7f264fb2-c03a-4561-9ed1-791c145b863e 
+Jun 26 09:05:13.414 HYPERVISOR: exec_cmd: ethsw set_access_port Switch13 udp-7f264fb2-c03a-4561-9ed1-791c145b863e 1 
+Jun 26 09:05:18.195 HYPERVISOR: exec_cmd: nio create_udp udp-c9f266d4-7d5a-406d-9899-e5d5eb8d02ca 10103 127.0.0.1 10102 
+Jun 26 09:05:18.195 HYPERVISOR: exec_cmd: ethsw add_nio Switch13 udp-c9f266d4-7d5a-406d-9899-e5d5eb8d02ca 
+Jun 26 09:05:18.206 HYPERVISOR: exec_cmd: ethsw set_access_port Switch13 udp-c9f266d4-7d5a-406d-9899-e5d5eb8d02ca 1 
+Jun 26 18:16:42.267 HYPERVISOR: exec_cmd: ethsw remove_nio Switch13 udp-7f264fb2-c03a-4561-9ed1-791c145b863e 
+Jun 26 18:16:42.304 HYPERVISOR: exec_cmd: nio delete udp-7f264fb2-c03a-4561-9ed1-791c145b863e 
+Jun 26 18:16:46.421 HYPERVISOR: exec_cmd: nio create_udp udp-f7b6bb96-e19c-41ea-ba3c-c45459f6910c 10035 127.0.0.1 10034 
+Jun 26 18:16:46.421 HYPERVISOR: exec_cmd: ethsw add_nio Switch13 udp-f7b6bb96-e19c-41ea-ba3c-c45459f6910c 
+Jun 26 18:16:46.440 HYPERVISOR: exec_cmd: ethsw set_access_port Switch13 udp-f7b6bb96-e19c-41ea-ba3c-c45459f6910c 1 
+Jun 26 18:53:18.195 HYPERVISOR: exec_cmd: ethsw delete Switch13 
+Jun 26 18:53:18.242 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 26 18:53:18.434 HYPERVISOR: Stopped.
+Jun 26 18:53:18.434 GENERAL: reset done.
